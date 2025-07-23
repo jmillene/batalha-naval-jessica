@@ -1,4 +1,4 @@
-# 🧙‍♀️ Desafio Batalha Naval - Nível Mestre
+# Desafio Batalha Naval - Nível Mestre
 
 Projeto voltado à simulação de habilidades especiais em um tabuleiro de batalha naval.
 
@@ -16,9 +16,9 @@ As áreas atingidas são marcadas com `1`, enquanto áreas não afetadas permane
 
 ---
 
-## 🧠 Conceito das Habilidades
+## Conceito das Habilidades
 
-### 🔺 Cone Invertido
+### Cone Invertido
 - Atinge 3 linhas a partir de um ponto central (tipo "funil")
 - Área aumenta a cada linha de profundidade
 
@@ -34,7 +34,7 @@ As áreas atingidas são marcadas com `1`, enquanto áreas não afetadas permane
 
 ##  Código-Fonte (C)
 
-//
+``c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,7 +92,6 @@ void habilidadeLosango(int mapa[TAMANHO][TAMANHO], int centroY, int centroX) {
         }
     }
 }
-//
 int main() {
     int campoBatalha[TAMANHO][TAMANHO];
 
