@@ -32,9 +32,9 @@ As áreas atingidas são marcadas com `1`, enquanto áreas não afetadas permane
 
 ---
 
-## 💻 Código-Fonte (C)
+##  Código-Fonte (C)
 
-``c
+//
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,7 +92,7 @@ void habilidadeLosango(int mapa[TAMANHO][TAMANHO], int centroY, int centroX) {
         }
     }
 }
-
+//
 int main() {
     int campoBatalha[TAMANHO][TAMANHO];
 
